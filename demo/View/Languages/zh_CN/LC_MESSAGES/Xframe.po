@@ -1,0 +1,30 @@
+# Copyright (C) 2014 Xframe https://github.com/hopeness/Xframe
+# This file is distributed under the same license as the Xframe package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Xframe 0.1\n"
+"Report-Msgid-Bugs-To: https://github.com/hopeness/Xframe\n"
+"POT-Creation-Date: 2014-08-19 12:53+0800\n"
+"PO-Revision-Date: 2014-08-19 16:06+0800\n"
+"Last-Translator: Hopeness <houpengg@gmail.com>\n"
+"Language-Team: Xframe\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.7\n"
+
+#. 哈哈哈啊
+msgid "Activation Key Required"
+msgstr "要求激活密钥1111111111111"
+
+#. 哈哈哈啊asdfasasfsf
+msgid "Activate"
+msgstr "启用"
+
+msgid "Hello world!"
+msgstr "获取文本信息"
+
+msgid "Activate Key"
+msgstr "触发key"

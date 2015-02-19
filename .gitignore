@@ -1,0 +1,14 @@
+# ignore admin project
+admin/
+
+# ignore test file
+testController.class.php
+
+# ignore config file
+config.php
+
+# ignore project file
+*.sublime-project
+*.sublime-workspace
+.tags*
+/nbproject
