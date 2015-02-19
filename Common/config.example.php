@@ -1,30 +1,45 @@
-<?php
+﻿<?php
+defined('XFRAME') || exit('Access Denied');
+
 return [
-    'db' => [
-        'type' => 'pgsql',
-        'rate' => 5,
-        'prefix' => 'blog.',
-        'master' => [
-            'host' => '10.0.0.21',
-            'port' => '5432',
-            'dbname' => 'site',
-            'user' => 'site',
-            'password' => 'site'
+    'DEBUG' => true,
+    'ROUTE_TYPE' => 2,
+    'PATH' => '/',
+    'STATIC_PATH' => 'admin',
+    'IGNORE_CDN' => true,
+    'CDN' => [
+        'http://xframe1',
+        'http://xframe2',
+        'http://xframe3',
+        'http://xframe4',
         ],
-        'slave' => [
+    'ROUTE_TYPE' => 2,
+    'DB' => [
+        'TYPE' => 'pgsql',
+        'PREFIX' => 'blog.',
+        'MASTER' => [
+            'HOST' => '10.0.0.21',
+            'PORT' => '5432',
+            'DBNAME' => 'site',
+            'USER' => 'site',
+            'PASSWORD' => 'site'
+        ],
+        'SLAVE' => [
             [
-                'host' => '10.0.0.22',
-                'port' => '5432',
-                'dbname' => 'site',
-                'user' => 'site',
-                'password' => 'site'
+                'HOST' => '10.0.0.21',
+                'PORT' => '5432',
+                'DBNAME' => 'site',
+                'USER' => 'site',
+                'PASSWORD' => 'site'
+                'RATE' => 5,
             ],
             [
-                'host' => '10.0.0.23',
-                'port' => '5432',
-                'dbname' => 'site',
-                'user' => 'site',
-                'password' => 'site'
+                'HOST' => '10.0.0.21',
+                'PORT' => '5432',
+                'DBNAME' => 'site',
+                'USER' => 'site',
+                'PASSWORD' => 'site'
+                'RATE' => 5,
             ]
         ]
     ]

@@ -1,9 +1,3 @@
-# ignore admin project
-admin/
-
-# ignore test file
-testController.class.php
-
 # ignore config file
 config.php
 
