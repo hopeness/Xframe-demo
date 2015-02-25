@@ -10,14 +10,9 @@
 //     xhprof_enable(XHPROF_FLAGS_CPU + XHPROF_FLAGS_MEMORY);
 // }
 
-define('APP', './demo/');
+define('APP',  './');
 
-$APP = [
-    '/' => 'index',
-    '/test/?' => 'test',
-];
-
-require './_Xframe/Core.php';
+require '../Xframe/Xframe.php';
 
 
 // if (extension_loaded('xhprof')) {
