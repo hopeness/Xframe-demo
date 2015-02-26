@@ -2,7 +2,7 @@
 config.php
 
 # ignore project file
-*.sublime-project
-*.sublime-workspace
-.tags*
+/*.sublime-project
+/*.sublime-workspace
+/.tags*
 /nbproject
